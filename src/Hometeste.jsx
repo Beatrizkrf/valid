@@ -288,13 +288,15 @@ function Home() {
         </div>
       </section>
 
-      {/* seção 5 - público-alvo  */}
-      <section className=" fundoverdeclaro publico-alvo">
-        <h2 className="titulos-home">Público-Alvo</h2>
-        <p>Nossa plataforma atende diversos segmentos que necessitam de verificação confiável de documentos</p>
-      </section>
 
-      <section className="fundoverdeclaro">
+      {/* seção 5 - público-alvo */}
+      <section className="fundoverdemalema publico-alvo">
+        <h2 className="titulos-home">Público-Alvo</h2>
+
+        <p>
+          Nossa plataforma atende diversos segmentos que necessitam de verificação confiável de documentos
+        </p>
+
         <div className="cards-home2 container">
           <div className="card-home cardhome2">
             <div className="icardhome"><PiBuildingApartment /></div>
@@ -333,6 +335,7 @@ function Home() {
           </div>
         </div>
       </section>
+
 
       {/* seção 6 */}
       <section className="fundoverde2 secverificardoc">
