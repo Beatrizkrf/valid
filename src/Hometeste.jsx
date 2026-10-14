@@ -3,7 +3,6 @@ import Footer from "./components/Footer";
 import "./style.css";
 import "./Home.css";
 
-import documento from "./assets/img/documento.png";
 import { LuFolderGit2 } from "react-icons/lu";
 import { LuDownload } from "react-icons/lu";
 import { LuSquareDashed } from "react-icons/lu";
@@ -22,7 +21,7 @@ import BackToTop from "./components/BackToTop";
 
 function Home() {
   return (
-    <div className="home">
+    <div className="inicial">
 
       <Header />
       {/* seção 1 - destaque principal */}
@@ -30,7 +29,7 @@ function Home() {
         <div className="row hero-valid-row">
 
           {/* Texto à esquerda */}
-          <div className="col-lg-6 col-12 div-col-home">
+          <div className="col-lg-6 col-12 div-col-inicial">
             <div className="div-texto hero-valid-texto">
 
               <h1 className="text-branco">
@@ -64,7 +63,6 @@ function Home() {
               <div className="hero-luz"></div>
 
               {/* Pontos decorativos */}
-              <span className="hero-ponto ponto-1"></span>
               <span className="hero-ponto ponto-2"></span>
               <span className="hero-ponto ponto-3"></span>
               <span className="hero-ponto ponto-4"></span>
