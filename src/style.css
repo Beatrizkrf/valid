@@ -31,7 +31,7 @@
 
 .text-branco {
   color: white;
-  font-size: 50px;
+  font-size: 50px !important;
   font-weight: 700;
   margin-left: 80px;
 }
@@ -44,6 +44,7 @@
 .col-6 p {
   display: inline-block;
 }
+
 
 .div-imgdoc {
   background-color: #d9d9d969;
@@ -370,7 +371,7 @@
 
 /* seção 5 - público-alvo */
 .publico-alvo {
-  padding-bottom: 120px;
+  padding-bottom: 80px;
 }
 
 .publico-alvo p {
@@ -398,6 +399,15 @@
   position: relative;
   z-index: 10;
   margin-top: -200px;
+}
+
+.cards-home-inicial {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  position: relative;
+  z-index: 10;
+  margin-bottom: 5%;
 }
 
 .cardhome2 {
@@ -599,6 +609,7 @@
   line-height: 1.5;
   margin: 0;
 }
+
 
 /* responsividade */
 @media (max-width: 768px) {
